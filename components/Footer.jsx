@@ -8,7 +8,7 @@ export function Footer() {
     <div className="col-span-3 flex flex-col justify-center">
      <Link href="/">
       <span className="flex cursor-pointer items-center text-2xl font-semibold">
-       Igor Kowalczyk
+       Alex
        <span className="bg-gradient-to-r from-[#6310ff] to-[#1491ff] box-decoration-clone bg-clip-text text-fill-transparent dark:from-[#a2facf] dark:to-[#64acff]">.</span> <span className="mx-1 ml-2 rounded-lg bg-black/10 px-2 py-1 text-xs dark:bg-white/10">v{process.env.VERSION}</span>
       </span>
      </Link>
@@ -37,7 +37,7 @@ export function Footer() {
    </div>
    <div className="mt-5 flex justify-end text-center text-gray-700 dark:text-neutral-300">
     {/* DO NOT TOUCH THE CODE BELOW! REMEMBER: YOU CAN ADD YOUR NAME AFTER MY NAME */}
-    <p className="font-semibold">&copy; 2019 - {new Date().getFullYear()} Igor Kowalczyk, All rights reserved.</p>
+    <p className="font-semibold">&copy; 2019 - {new Date().getFullYear()} Alex, All rights reserved.</p>
    </div>
   </footer>
  );

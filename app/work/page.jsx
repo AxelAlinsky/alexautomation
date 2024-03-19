@@ -8,7 +8,7 @@ import { GetRepos } from "@/lib/graphql";
 export const runtime = "edge";
 
 export const metadata = {
- title: "My Work",
+ title: "Projects",
 };
 
 export default async function GithubRepositories() {
@@ -23,7 +23,7 @@ export default async function GithubRepositories() {
    </div>
 
    <div className="mx-auto mb-16 flex max-w-5xl flex-col items-start justify-center">
-    <Header1>My Work</Header1>
+    <Header1>Projects</Header1>
     <Description className="mb-6">I have been programming for {new Date().getFullYear() - 2018} years, and I have worked on many projects. Here are some of my most recent projects, you can find more on my Github profile.</Description>
 
     <Header2 className="mb-3">Recent Projects</Header2>
