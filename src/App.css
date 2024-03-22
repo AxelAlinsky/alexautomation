@@ -54,7 +54,7 @@ main {
 .link:hover {
   color: var(--clr-primary);
 }
-
+/* 
 .link::before {
   content: '';
   display: inline;
@@ -64,16 +64,15 @@ main {
   bottom: 0;
   background-color: var(--clr-primary);
   transition: width 0.2s ease-in;
-}
+} */
 
-.link:hover::before,
+/* .link:hover::before,
 .link:focus::before {
   width: 100%;
-}
+} */
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
   font-weight: 500;
 }
 

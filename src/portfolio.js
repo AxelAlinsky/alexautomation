@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://github.com/AxelAlinsky',
+  title: 'Alex',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Alex',
+  role: 'QA Automation Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'A seasoned Senior QA Automation Engineer located in Bangkok with extensive experience in guiding sophisticated automation approaches. My proficiency in leveraging Python, TypeScript, Robot Framework, Selenium, and Playwright empowers me to craft and sustain cutting-edge testing frameworks and CI/CD pipelines, significantly enhancing operational efficiency and product quality across diverse tech industries. ',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/mattapichai/',
+    github: 'https://github.com/AxelAlinsky',
   },
 }
 
@@ -21,28 +21,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Sauce Demo Automation',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    livePreview: 'https://www.google.com/',
   },
 ]
 
@@ -54,18 +38,24 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
   'SASS',
-  'Material UI',
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
+  'Cypress',
+  'Robot Framework',
+  'Selenium',
+  'Playwright',
+  'Python',
+  'Docker',
+  'Kubernetes',
+  'Jenkins',
+  'AWS',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'matthewkenn00@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
